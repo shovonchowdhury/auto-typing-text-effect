@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+span{
+    color: blueviolet;
+    display: inline-flex;
+    align-items: center;
+  
+}
+
+span::after{
+    content: '';
+    display: inline-block;
+    background-color: blueviolet;
+    width: 2px;
+    height: 55px;
+    margin-left: 4px;
+}
